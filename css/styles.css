@@ -37,3 +37,20 @@ img {
   float: right;
   margin-right: 15px;
 }
+
+.receipt {
+  font-size: 120%;
+}
+
+#title {
+  padding-bottom: 15px;
+}
+
+#toppingPicked {
+  padding-bottom: 15px;
+}
+
+#thanks {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
