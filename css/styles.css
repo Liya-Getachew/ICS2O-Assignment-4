@@ -33,6 +33,11 @@ p {
   padding-top: 15pt;
 }
 
+h2 {
+  text-align: center;
+  color: #2e1245;
+}
+
 img {
   float: right;
   margin-right: 15px;
@@ -46,8 +51,8 @@ img {
   padding-bottom: 15px;
 }
 
-#toppingPicked {
-  padding-bottom: 15px;
+#taxes {
+  padding-top: 15px;
 }
 
 #thanks {
