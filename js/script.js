@@ -26,33 +26,35 @@ function myButtonClicked() {
   let sizePrice = 0
 
   if (flavour == "sprinkles") {
-    toppingPrice = 1.0
+    toppingPrice = 1.00
   } else if (flavour == "glazed") {
-    toppingPrice = 2.0
+    toppingPrice = 2.00
   } else if (flavour == "jam filling") {
-    toppingPrice = 1.5
+    toppingPrice = 1.50
   } else if (flavour == "powdered sugar") {
-    toppingPrice = 1.0
+    toppingPrice = 1.00
   } else if (flavour == "caramel") {
-    toppingPrice = 3.0
+    toppingPrice = 3.00
   } else {
     toppingPrice = 0
   }
 
   if (size == "one piece") {
-    sizePrice = 1.0
+    sizePrice = 1.00
   } else if (size == "six piece") {
-    sizePrice = 7.0
+    sizePrice = 7.00
+  } else if (size == "twelve piece") {
+    sizePrice = 15.00
   } else {
-    sizePrice = 15.0
+    sizePrice = 0
   }
 
   document.getElementById("title").innerHTML = "Receipt"
   document.getElementById("subtitle").innerHTML = "Item ----- Cost"
   document.getElementById("sizePicked").innerHTML =
-    size + " " + sizePrice.toFixed(2)
+    size + " $" + sizePrice.toFixed(2)
   document.getElementById("toppingPicked").innerHTML =
-    flavour + " " + toppingPrice.toFixed(2)
+    flavour + " $" + toppingPrice.toFixed(2)
   document.getElementById("taxes").innerHTML = "Taxes %13"
 
   const totalPrice = (sizePrice + toppingPrice) * TAX_RATE
