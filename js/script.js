@@ -26,25 +26,25 @@ function myButtonClicked() {
   let sizePrice = 0
 
   if (flavour == "sprinkles") {
-    toppingPrice = 1.00
+    toppingPrice = 1.0
   } else if (flavour == "glazed") {
-    toppingPrice = 2.00
+    toppingPrice = 2.0
   } else if (flavour == "jam filling") {
-    toppingPrice = 1.50
+    toppingPrice = 1.5
   } else if (flavour == "powdered sugar") {
-    toppingPrice = 1.00
+    toppingPrice = 1.0
   } else if (flavour == "caramel") {
-    toppingPrice = 3.00
+    toppingPrice = 3.0
   } else {
     toppingPrice = 0
   }
 
   if (size == "one piece") {
-    sizePrice = 1.00
+    sizePrice = 1.0
   } else if (size == "six piece") {
-    sizePrice = 7.00
+    sizePrice = 7.0
   } else if (size == "twelve piece") {
-    sizePrice = 15.00
+    sizePrice = 15.0
   } else {
     sizePrice = 0
   }
